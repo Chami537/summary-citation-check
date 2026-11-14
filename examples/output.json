@@ -1,0 +1,118 @@
+{
+  "title": "示例证券_2026-10-28_示例科技(000000)三季报点评",
+  "chunks_in": 7,
+  "chunks_used": 6,
+  "model_requests": 2,
+  "rewrite_request_ends_with": "上一版摘要的问题：第2句的数字 17 在它引用的 [0] 里找不到；第3句的数字 42.1 在它引用的 [3] 里找不到；第6句的数字 2027 在它引用的 [2] 里找不到。请重写摘要。",
+  "drafts": [
+    {
+      "rank": [
+        2,
+        3,
+        75
+      ],
+      "sentences": [
+        {
+          "sentence": "示例科技前三季度营业收入85.6亿元，同比增长12.3%。",
+          "evidence_chunks": [
+            0
+          ],
+          "verdict": "通过"
+        },
+        {
+          "sentence": "归母净利润9.4亿元，同比增长17%。",
+          "evidence_chunks": [
+            0
+          ],
+          "verdict": "全文找不到"
+        },
+        {
+          "sentence": "第三季度毛利率提升至42.1%。",
+          "evidence_chunks": [
+            3
+          ],
+          "verdict": "引用不准"
+        },
+        {
+          "sentence": "公司公告称拟投资20亿元建设新一代产线。",
+          "evidence_chunks": [
+            2
+          ],
+          "verdict": "通过"
+        },
+        {
+          "sentence": "报告维持买入评级，目标价68.5元。",
+          "evidence_chunks": [
+            4
+          ],
+          "verdict": "通过"
+        },
+        {
+          "sentence": "新产线预计2027年投产。",
+          "evidence_chunks": [
+            2
+          ],
+          "verdict": "全文找不到"
+        }
+      ]
+    },
+    {
+      "rank": [
+        1,
+        2,
+        73
+      ],
+      "sentences": [
+        {
+          "sentence": "示例科技前三季度营业收入85.6亿元，同比增长12.3%。",
+          "evidence_chunks": [
+            0
+          ],
+          "verdict": "通过"
+        },
+        {
+          "sentence": "归母净利润9.4亿元，同比增长18.7%。",
+          "evidence_chunks": [
+            0
+          ],
+          "verdict": "通过"
+        },
+        {
+          "sentence": "第三季度毛利率提升至42.1%。",
+          "evidence_chunks": [
+            3
+          ],
+          "verdict": "引用不准"
+        },
+        {
+          "sentence": "公司公告称拟投资20亿元建设新一代产线。",
+          "evidence_chunks": [
+            2
+          ],
+          "verdict": "通过"
+        },
+        {
+          "sentence": "报告维持买入评级，目标价68.5元。",
+          "evidence_chunks": [
+            4
+          ],
+          "verdict": "通过"
+        },
+        {
+          "sentence": "新产线预计2027年投产。",
+          "evidence_chunks": [
+            2
+          ],
+          "verdict": "全文找不到"
+        }
+      ]
+    }
+  ],
+  "kept_draft": 2,
+  "summary": "示例科技前三季度营业收入85.6亿元，同比增长12.3%。归母净利润9.4亿元，同比增长18.7%。第三季度毛利率提升至42.1%。公司公告称拟投资20亿元建设新一代产线。报告维持买入评级，目标价68.5元。",
+  "mode": "whole",
+  "groups": 1,
+  "truncated": false,
+  "input_chars": 227,
+  "used_chars": 227
+}

@@ -1,0 +1,4 @@
+# The versions the recorded test run used (Python 3.12.3). The module itself needs nothing beyond the
+# standard library; these are for running the tests.
+pytest==9.1.1
+pytest-asyncio==1.4.0

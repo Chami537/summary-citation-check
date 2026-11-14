@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "summary-citation-check"
+version = "0.1.0"
+description = "Sentence-level citation and figure checks for model-written article summaries (standalone export)"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []  # the module itself uses the standard library only
+
+[project.optional-dependencies]
+test = ["pytest>=8", "pytest-asyncio>=1.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+summary_verify = ["skills/*/SKILL.md"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "session"
+asyncio_default_test_loop_scope = "session"
